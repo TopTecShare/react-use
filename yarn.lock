@@ -3553,30 +3553,17 @@
     lodash "^4.17.4"
     read-pkg-up "^7.0.0"
 
-"@shopify/async@^2.2.6":
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/@shopify/async/-/async-2.2.6.tgz#ef5ba2d8db93ebf89cdbeb7d08371790dca8742f"
-  integrity sha512-u73hBuZjdejkROKcnaamsEvxOBJd7gV21QjmfneXtdqln95AL0OQwGCjujZsY4U68fDdEbZBf+EVZBeKCQ9OXw==
+"@shopify/async@^3.0.7":
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/@shopify/async/-/async-3.0.7.tgz#641938aa82bc95d254fadf95225eda3ebd5b84a1"
+  integrity sha512-Prv8n9UqBf+fs2vvDJQp1qc+D69jT28w540jvuogsbVuA1d6IbyZAk6O48FgiWD+NcPluhmP908yHLzHs9hxLg==
 
-"@shopify/decorators@^1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@shopify/decorators/-/decorators-1.2.5.tgz#41a084472ea1d9d97c97f8df5641b225d65f9d45"
-  integrity sha512-4W931D1PswzdtMlkaWiNyCw6oD2/BnHczvtfg/ALygC7wPWlIHlKvdGzQQv7qmY+Qheu8Zn1NLrHnwwOiZ7r3w==
+"@shopify/jest-dom-mocks@3.0.9":
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/@shopify/jest-dom-mocks/-/jest-dom-mocks-3.0.9.tgz#c5f1c0f61ef1cb07519c7e588c86bac52a9146e6"
+  integrity sha512-eBNF8D8D+nhXUHijKVMPu6W+F9mp8rqTMepjW480a5tX0co8QaowYUTCtjq6pxbwiO3AZV9Iqxfr7+kgmFjJWA==
   dependencies:
-    "@shopify/function-enhancers" "^1.1.5"
-
-"@shopify/function-enhancers@^1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@shopify/function-enhancers/-/function-enhancers-1.1.5.tgz#9edf11f922e5752ddc5896191638c7e61629c1c6"
-  integrity sha512-tpXYJbesIPU7mnspgx6VTmAc+rLRxYGwiO/rNtZYOAEapedajQhWIXmVqaBXGNJaVUlSa+yT2xO2oHY9DPmGsQ==
-
-"@shopify/jest-dom-mocks@2.11.7":
-  version "2.11.7"
-  resolved "https://registry.yarnpkg.com/@shopify/jest-dom-mocks/-/jest-dom-mocks-2.11.7.tgz#845166d5820521bef2a50e12b9d29b9d564a8582"
-  integrity sha512-UG9GAAVMOYc0ZbgcMr6dFb1iX406+Ww6lvmh+boX4EX+grtDMWuaFg9YkEG/0XogAo98WhMIdNOvnL39WipWnQ==
-  dependencies:
-    "@shopify/async" "^2.2.6"
-    "@shopify/decorators" "^1.2.5"
+    "@shopify/async" "^3.0.7"
     "@types/fetch-mock" "^7.3.3"
     "@types/lolex" "^2.1.3"
     fetch-mock "^9.11.0"
